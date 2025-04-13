@@ -5,8 +5,6 @@
 Este projeto implementa um algoritmo baseado em backtracking para encontrar um Caminho Hamiltoniano em um grafo não orientado. O algoritmo testa cada vértice como ponto de partida e tenta construir um caminho válido que visite todos os vértices exatamente uma vez.
 ### Explicação do Algoritmo
 
-O algoritmo utiliza a técnica de backtracking para encontrar um Caminho Hamiltoniano em um grafo. Ele tenta construir um caminho válido adicionando vértices um a um, verificando se cada adição é válida. Caso encontre um impasse, ele retrocede (backtrack) e tenta outra possibilidade.
-
 #### Função `hamiltoniano`
 
 Esta função é responsável por construir o caminho Hamiltoniano recursivamente.
